@@ -24,7 +24,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W16-7e-ujE" userLabel="mainImageView">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jMT-1M-cgi">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jMT-1M-cgi">
                                 <rect key="frame" x="138" y="623" width="99" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="Reset"/>
@@ -42,7 +42,9 @@
                             <constraint firstItem="9Hj-2X-DaC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6m9-1o-BtA"/>
                             <constraint firstItem="W16-7e-ujE" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="WgC-QL-4Jk"/>
                             <constraint firstItem="W16-7e-ujE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="aeG-Lg-vBS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jMT-1M-cgi" secondAttribute="trailing" constant="138" id="aiN-42-V4p"/>
                             <constraint firstItem="9Hj-2X-DaC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mni-Oe-0g7"/>
+                            <constraint firstItem="jMT-1M-cgi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="138" id="o0k-yG-czW"/>
                             <constraint firstItem="9Hj-2X-DaC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qMv-Y6-nt9"/>
                             <constraint firstItem="9Hj-2X-DaC" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="rC0-zE-7ii"/>
                             <constraint firstItem="9Hj-2X-DaC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="rw2-Jg-rHk"/>
