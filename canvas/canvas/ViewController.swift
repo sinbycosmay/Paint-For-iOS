@@ -91,5 +91,9 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func Reset() {
+        mainImageView.image = nil
+    }
+    
 }
 

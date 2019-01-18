@@ -20,16 +20,24 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9Hj-2X-DaC">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W16-7e-ujE" userLabel="mainImageView">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jMT-1M-cgi">
+                                <rect key="frame" x="138" y="623" width="99" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="Reset" destination="BYZ-38-t0r" eventType="touchUpInside" id="PP8-J5-qOQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="9Hj-2X-DaC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3Ib-a9-ZCB"/>
                             <constraint firstItem="W16-7e-ujE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3mI-cU-NO2"/>
+                            <constraint firstItem="jMT-1M-cgi" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="6Rm-Zv-JRE"/>
                             <constraint firstItem="9Hj-2X-DaC" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="6k6-Ps-Fe1"/>
                             <constraint firstItem="9Hj-2X-DaC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6m9-1o-BtA"/>
                             <constraint firstItem="W16-7e-ujE" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="WgC-QL-4Jk"/>
@@ -40,6 +48,7 @@
                             <constraint firstItem="9Hj-2X-DaC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="rw2-Jg-rHk"/>
                             <constraint firstItem="W16-7e-ujE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tPC-fx-Kz4"/>
                             <constraint firstItem="9Hj-2X-DaC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="vUD-ix-TaM"/>
+                            <constraint firstItem="W16-7e-ujE" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="y8X-0Y-3RE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
