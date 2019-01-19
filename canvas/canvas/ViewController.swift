@@ -95,5 +95,25 @@ class ViewController: UIViewController {
         mainImageView.image = nil
     }
     
+    @IBAction func red(_ sender: UIButton) {
+        color = UIColor.red
+    }
+    
+    @IBAction func green(_ sender: UIButton) {
+        color = UIColor.green
+    }
+    
+    @IBAction func eraser(_ sender: UIButton) {
+        color = UIColor.white
+    }
+    
+    @IBAction func blue(_ sender: UIButton) {
+        color = UIColor.blue
+    }
+    
+    @IBAction func black() {
+        color = UIColor.black
+    }
+    
 }
 
